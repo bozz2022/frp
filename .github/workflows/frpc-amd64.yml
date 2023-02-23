@@ -1,4 +1,4 @@
-name: frpc-arm64
+name: frpc-amd64
 on:
   push:
     branches:
@@ -30,7 +30,7 @@ jobs:
         name: Build and Push
         uses: docker/build-push-action@v3
         with:
-          context: frpc/arm64
-          platforms: linux/arm64
+          context: frpc/amd64
+          platforms: linux/amd64
           push: true
           tags: ${{ secrets.REGISTRY_URL }}/betazhang/frpc:latest
