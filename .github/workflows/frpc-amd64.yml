@@ -33,4 +33,4 @@ jobs:
           context: frpc/amd64
           platforms: linux/amd64
           push: true
-          tags: ${{ secrets.REGISTRY_URL }}/betazhang/frpc:latest
+          tags: ${{ secrets.REGISTRY_URL }}/betazhang/frpc:adm64-latest
