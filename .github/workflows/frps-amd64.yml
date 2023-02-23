@@ -33,4 +33,4 @@ jobs:
           context: frps/amd64
           platforms: linux/amd64
           push: true
-          tags: ${{ secrets.REGISTRY_URL }}/betazhang/frps:latest
+          tags: ${{ secrets.REGISTRY_URL }}/betazhang/frps:amd64-latest
